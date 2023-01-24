@@ -40,10 +40,6 @@ func SendEmailWithAttachments(c ews.Client, to []string, subject, body string, f
 			Name:    fileName,
 			Content: content,
 		},
-			{
-				Name:    fileName,
-				Content: content,
-			},
 		},
 		},
 		Sender: ews.OneMailbox{
